@@ -1,0 +1,34 @@
+<div class="col-lg-12">
+	  <div class="col-lg-6 col-md-6 col-lg-offset-3 col-md-offset-3" style="margin-top:2%;">
+	  <div class="form-group row">
+                        <div class="col-sm-12">
+                             <div class="form-group">
+                              <div class="input-group">
+                                <input class="form-control" type="text" id="city_name" placeholder="Enter your city name"><span class="input-group-btn">
+                                  <button type="button" id="submit" class="btn btn-primary">Search</button></span>
+                              </div>
+                            </div>
+                        </div>
+       </div>
+	   <hr>
+	   <div class="row">
+			<h3 class="line-breaker">Current Weather and forecast in your city</h3><br ng-bind-html="myHTML" />
+			<h4 id="city_name_disp"></h4>
+			<h5 id="city_temp"></h5>
+			<h5 id="city_cloudiness"></h5>
+			<h5 id="city_pressure"></h5>
+			<h5 id="city_sunrise"></h5>
+			<h5 id="city_sunset"></h5>
+	   </div>
+	   <div class="row">
+			<h3 class="line-breaker">Previous Weather and forecast in your city</h3><br ng-bind-html="myHTML" />
+			<h4 id="prev_city_name_disp"></h4>
+			<h5 id="prev_city_temp"></h5>
+			<h5 id="prev_city_cloudiness"></h5>
+			<h5 id="prev_city_pressure"></h5>
+			<h5 id="prev_city_sunrise"></h5>
+			<h5 id="prev_city_sunset"></h5>
+	   </div>	   
+	 </div>
+</div>
+
